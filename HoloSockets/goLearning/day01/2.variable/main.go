@@ -90,23 +90,14 @@ const (
 	PB = 1 << (10 * iota)
 )
 
-//多个iota定义在一行
+//多个iota定义在一nol
 const (
 	a, b = 1 + iota, 2 + iota //1 2
-	c, d                      //2,3
+	c, d                      //2 3
 	e, f                      //3,4
 )
 
 func main() {
-
-	//局部变量
-	//n := 20
-	//m := 19
-	//fmt.Println(name)
-	//fmt.Println(age)
-	//fmt.Println(m, n)
-	// age, _ := foo()
-	// _, name := foo()
 	// fmt.Println("age:", age)
 	// fmt.Println("name:", name)
 	// fmt.Println("a:", a)
